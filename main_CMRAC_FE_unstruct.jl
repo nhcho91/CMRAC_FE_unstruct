@@ -154,7 +154,7 @@ end
 function main(; case = 1)
     if case == 1
         Γ_w_list = [0.0, 1.0, 10.0, 100.0]
-        R = 0.001
+        R = 0.1
         test_case = Γ_w_list
     elseif case == 2
         Γ_w = 10.0
